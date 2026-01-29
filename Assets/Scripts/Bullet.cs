@@ -12,4 +12,3 @@ public class Bullet : MonoBehaviour
         transform.position = newPosition;
     }
 }
-

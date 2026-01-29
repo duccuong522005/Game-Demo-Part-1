@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class Bonus : MonoBehaviour {
 
@@ -7,10 +7,6 @@ public class Bonus : MonoBehaviour {
     {
         if (collision.tag == "Player") 
         {
-            if (PlayerShooting.instance.weaponPower < PlayerShooting.instance.maxweaponPower)
-            {
-                PlayerShooting.instance.weaponPower++;
-            }
             Destroy(gameObject);
         }
     }

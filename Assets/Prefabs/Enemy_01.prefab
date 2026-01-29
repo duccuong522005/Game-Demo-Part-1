@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3240126959904090930}
   - component: {fileID: -5579350938473515533}
   - component: {fileID: -1926910946393551274}
+  - component: {fileID: -7882707106702261472}
   m_Layer: 7
   m_Name: Enemy_01
   m_TagString: Untagged
@@ -165,3 +166,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-7882707106702261472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6598590897545991389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  explosionPrefab: {fileID: 1863200446513665097, guid: 64e81f3cb68f4e449b7e91080da83ded,
+    type: 3}

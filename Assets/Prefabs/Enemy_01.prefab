@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -1926910946393551274}
   - component: {fileID: -7882707106702261472}
   - component: {fileID: -5450963012062123575}
+  - component: {fileID: -2400882218684406859}
   m_Layer: 7
   m_Name: Enemy_01
   m_TagString: Untagged
@@ -196,3 +197,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
   health: {fileID: -7882707106702261472}
   damage: 1
+--- !u!114 &-2400882218684406859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6598590897545991389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c627d529ecb9a349b88f9ca92518600, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyPathing
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  moveSpeed: 5
